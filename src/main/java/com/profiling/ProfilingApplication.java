@@ -1,5 +1,8 @@
 package com.profiling;
 
+import com.profiling.card.Card;
+import com.profiling.card.CardService;
+import com.profiling.card.impl.MasterCard;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;

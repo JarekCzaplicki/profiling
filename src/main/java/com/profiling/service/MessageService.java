@@ -1,5 +1,8 @@
 package com.profiling.service;
 
+import com.profiling.card.Card;
+import com.profiling.card.CardService;
+import com.profiling.card.impl.MasterCard;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Service;
 
@@ -7,6 +10,7 @@ import java.util.Locale;
 
 @Service
 public class MessageService {
+
     private final MessageSource messageSource;
 
     public MessageService(MessageSource messageSource) {
