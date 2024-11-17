@@ -22,11 +22,10 @@ public class ProfilingApplication {
 
     // internationalization = i18n
     @Bean
-    public ReloadableResourceBundleMessageSource getMessageSource() {
+    public ReloadableResourceBundleMessageSource messageSource() {
         ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
         messageSource.setBasename("classpath:i18n/messages");
         messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }
-
 }
